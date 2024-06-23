@@ -1,0 +1,86 @@
+@font-face{
+    font-family: gilroy;
+    src: url(./Gilroy-Regular.ttf);
+}
+
+*{
+    font-family: gilroy;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(145, 186, 186);
+}
+
+#panel{
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#ptop{
+    padding: 0px 30%;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(73, 122, 124);
+}
+
+.elem{
+    display: flex;
+    /* background-color:lightseagreen; */
+    align-items: center;
+    gap: 20px;
+}
+
+#box{
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#pbtm{
+    gap: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 100%;
+    height: calc(100% - 100px);
+
+}
+
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: rgb(73, 122, 124);
+}
+
+.bubble:hover{
+    background-color:rgb(46, 77, 78);
+    cursor: pointer;
+}
